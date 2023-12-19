@@ -1,0 +1,11 @@
+.cart {
+    margin: 25px auto 10px auto;
+    width: 25px;
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: bisque;
+   
+}
+
