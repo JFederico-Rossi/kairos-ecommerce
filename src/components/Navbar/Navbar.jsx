@@ -6,12 +6,10 @@ const Navbar = () => {
         <nav>
             <h2> Kairos Yoga Studio</h2>
             <div>
-                <button className={styles.button}>Yoga mats</button>
-                <button className={styles.button}>Tibetan bowl</button>
-                <button className={styles.button}>Yoga blocks</button>
-                <button className={styles.button}>Buddha figure</button>
-                <button className={styles.button}>Meditation bench</button>
-                <button className={styles.button}>Gong</button>
+                <button className={styles.button}>Products</button>
+                <button className={styles.button}>About Us</button>
+                <button className={styles.button}>Contact Us</button>
+               
             </div>
 
             <CartWidget />
