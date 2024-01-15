@@ -1,14 +1,15 @@
 import styles from './Navbar.module.css'
 import CartWidget from "../CartWidget/CartWidget"
+import { Link } from 'react-router-dom'
 
-const Navbar = () => {
+const Navbar = (categoryId) => {
     return (
         <nav>
-            <h2> Kairos Yoga Studio</h2>
+            <Link to='/'><h2 className='Linkh2'> Kairos Yoga Studio</h2></Link>
             <div>
-                <button className={styles.button}>Products</button>
-                <button className={styles.button}>About Us</button>
-                <button className={styles.button}>Contact Us</button>
+                <Link to={`/category/Yoga props`} className={styles.button}>Yoga Props</Link>
+                <Link to={`/category/Meditation`} className={styles.button}>Meditation</Link>
+                <Link to={`/category/Home`} className={styles.button}>Home</Link>
                
             </div>
 

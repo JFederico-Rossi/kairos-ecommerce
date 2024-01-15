@@ -1,7 +1,6 @@
 .cart {
-    margin: 25px auto 10px auto;
+    margin: 25px 50px 10px auto;
     width: 25px;
-    display: block;
     cursor: pointer;
     padding: 10px;
     border-radius: 5px;
@@ -9,3 +8,6 @@
    
 }
 
+.cart:hover{
+    background-color: rgba(107, 107, 167, 0.552);
+}

@@ -1,0 +1,21 @@
+.CardItemDetail{
+    width: 600px;
+    border: solid 2px rgba(191, 218, 222, 0.496);
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 10px 10px 0px 10px;
+    height: 570px;
+    margin: 20px auto 0 auto;
+
+}
+
+.ItemImgDetail{
+    width: 80px;
+    border-radius: 0.5rem;
+    height: 120px;
+}
+
+.InfoDetail{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px;
+}
